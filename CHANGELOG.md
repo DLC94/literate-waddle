@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/DLC94/literate-waddle/compare/v2.0.0...v2.1.0) (2025-06-17)
+
+
+### Features
+
+* **api:** add /cat endpoint ([639e644](https://github.com/DLC94/literate-waddle/commit/639e644f256029da7306a3be077d8329dbe11bc1))
+
 # [2.0.0](https://github.com/DLC94/literate-waddle/compare/v1.0.1...v2.0.0) (2025-06-17)
 
 
