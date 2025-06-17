@@ -14,6 +14,7 @@ def edit():
 def delete():
     return 'user deleted'
 
+
 @app.route('dog')
 def dog():
     return "dog created"
