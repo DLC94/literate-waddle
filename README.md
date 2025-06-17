@@ -52,9 +52,9 @@ git push
 ```
 3. Corre comando sematic-release
 ```bash
-semantic-release --dry-run
+npx semantic-release --dry-run
 
-semantic-release
+npx semantic-release
 ```
 
 ## Release Automatizado
