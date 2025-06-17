@@ -18,3 +18,7 @@ def delete():
 @app.route('dog')
 def dog():
     return "dog created"
+
+@app.route('cat')
+def cat():
+    return "cat created"
