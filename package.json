@@ -1,0 +1,21 @@
+{
+  "name": "literate-waddle",
+  "version": "1.0.0",
+  "description": "1. Moverse al directorio de trabajo (dentro de su proyecto repositorio git)\r 2. Iniciar proyecto NPM\r ```bash\r npm init -y\r ```\r 3. Instalar semantic-release a traves de NPM\r ```bash\r npm install --save-dev semantic-release @semantic-release/git @semantic-release/github @semantic-release/changelog @semantic-release/commit-analyzer @semantic-release/release-notes-generator conventional-changelog-conventionalcommits\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.3",
+    "@semantic-release/release-notes-generator": "^14.0.3",
+    "conventional-changelog-conventionalcommits": "^9.0.0",
+    "semantic-release": "^24.2.5"
+  }
+}
