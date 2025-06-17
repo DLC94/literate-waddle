@@ -1,3 +1,18 @@
+# [2.0.0](https://github.com/DLC94/literate-waddle/compare/v1.0.1...v2.0.0) (2025-06-17)
+
+
+* feat(api)!: remove /app endpoint ([518fb19](https://github.com/DLC94/literate-waddle/commit/518fb1922a6e7fef4ded01ab0e005abd987ecc65))
+
+
+### Features
+
+* **api:** add dog endpoint ([461763e](https://github.com/DLC94/literate-waddle/commit/461763e3676ee92d353d6f21a11eda874d4881ad)), closes [#1](https://github.com/DLC94/literate-waddle/issues/1)
+
+
+### BREAKING CHANGES
+
+* app endpoint no longer available
+
 ## [1.0.1](https://github.com/DLC94/literate-waddle/compare/v1.0.0...v1.0.1) (2025-06-17)
 
 
