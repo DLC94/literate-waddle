@@ -91,7 +91,7 @@ jobs:
 ```
 
 
-## Troubleshootinn
+## Troubleshooting
 ### Error instalando semantic-release
 1. Si estas dentro de la red de la oficina / svpn. Modifica archivo `.npmrc`. Agrega estas lineas
 
