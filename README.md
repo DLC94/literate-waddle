@@ -26,7 +26,16 @@ npm install --save-dev semantic-release @semantic-release/git @semantic-release/
                 ]
             }
         ],  
-        "@semantic-release/release-notes-generator", // crea notas para release
+       [
+            "@semantic-release/release-notes-generator", // crea notas para el release basado en el changelog
+            {
+                "preset": "conventionalcommits",
+                "presetConfig": [
+                    {"type":"docs", "section": "📝 Documentation"},
+                    {"type":"refactor", "section": "⚙️ Code Refactor"}
+                ]
+            }
+        ],
         "@semantic-release/changelog", // genera change log de manera automatizada
         "@semantic-release/git", // permite leer commits
         "@semantic-release/github" // public tag, release, commit a branch
