@@ -15,10 +15,12 @@
             "@semantic-release/release-notes-generator",
             {
                 "preset": "conventionalcommits",
-                "presetConfig": [
-                    {"type":"docs", "section": "📝 Documentation"},
-                    {"type":"refactor", "section": "⚙️ Code Refactor"}
-                ]
+                "presetConfig": {
+                    "types": [
+                        {"type":"docs", "section": "📝 Documentation"},
+                        {"type":"refactor", "section": "⚙️ Code Refactor"}
+                    ]
+                }
             }
         ],
         "@semantic-release/changelog",

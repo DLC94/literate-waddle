@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/user')
 def hello_world():
-    return "<p>Hello User Refactor</p>"
+    return "<p>Hello User</p>"
 
 @app.route('/edit')
 def edit():
