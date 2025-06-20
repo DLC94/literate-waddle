@@ -19,7 +19,11 @@ npm install --save-dev semantic-release @semantic-release/git @semantic-release/
         [
             "@semantic-release/commit-analyzer", // analyza commit en base a preset
             {
-                "preset": "conventionalcommits" // sigue estandar conventional commit
+                "preset": "conventionalcommits", // sigue estandar conventional commit
+                "releaseRules": [
+                    {"type": "docs", "release": "patch"},
+                    {"type": "refactor", "release": false}
+                ]
             }
         ],  
         "@semantic-release/release-notes-generator", // crea notas para release
@@ -91,7 +95,7 @@ jobs:
 ```
 
 
-## Troubleshootinn
+## Troubleshooting
 ### Error instalando semantic-release
 1. Si estas dentro de la red de la oficina / svpn. Modifica archivo `.npmrc`. Agrega estas lineas
 
