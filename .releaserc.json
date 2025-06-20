@@ -11,7 +11,16 @@
                 ]
             }
         ],  
-        "@semantic-release/release-notes-generator",
+        [
+            "@semantic-release/release-notes-generator",
+            {
+                "preset": "conventionalcommits",
+                "presetConfig": [
+                    {"type":"docs", "section": "📝 Documentation"},
+                    {"type":"refactor", "section": "⚙️ Code Refactor"}
+                ]
+            }
+        ],
         "@semantic-release/changelog",
         "@semantic-release/git",
         "@semantic-release/github"
