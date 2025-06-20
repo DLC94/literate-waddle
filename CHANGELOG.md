@@ -1,3 +1,13 @@
+## [2.1.3](https://github.com/DLC94/literate-waddle/compare/v2.1.2...v2.1.3) (2025-06-20)
+
+### 📝 Documentation
+
+* update README to include steps to release on docs and add notes to changelog ([33e39af](https://github.com/DLC94/literate-waddle/commit/33e39af2f470ed85f1e201a523adbdf2e108f688))
+
+### ⚙️ Code Refactor
+
+* replace promise in order to use async/await ([ec0c742](https://github.com/DLC94/literate-waddle/commit/ec0c742533d5253843ab1fe9bc3b392958e277ca))
+
 ## [2.1.2](https://github.com/DLC94/literate-waddle/compare/v2.1.1...v2.1.2) (2025-06-20)
 
 ## [2.1.1](https://github.com/DLC94/literate-waddle/compare/v2.1.0...v2.1.1) (2025-06-20)
