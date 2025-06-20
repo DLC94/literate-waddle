@@ -6,7 +6,7 @@
 ```bash
 npm init -y
 ```
-3. Instalar semantic-release a traves de NPM
+3. Instalar semantic-release a traves de NP
 ```bash
 npm install --save-dev semantic-release @semantic-release/git @semantic-release/github @semantic-release/changelog @semantic-release/commit-analyzer @semantic-release/release-notes-generator conventional-changelog-conventionalcommits
 ```
